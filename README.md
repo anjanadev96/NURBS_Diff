@@ -15,10 +15,10 @@ To install main dependencies for Visual Studio:
 * `set DISTUTILS_USE_SDK=1 && set PY_VCRUNTIME_REDIST=No thanks && set MSSdk=1`
 * Download and unzip CUB (latest release) from https://github.com/NVIDIA/cub/releases
 * `set CUB_HOME=path/to/CUB/folder/containing/cmakelists.txt`
-* In WSL, edit the following:
-	*`sed -i.bak -e 's/CONSTEXPR_EXCEPT_WIN_CUDA/const/g' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/torch/csrc/jit/api/module.h`
-	*`sed -i.bak -e 's/return \*(this->value)/return \*((type\*)this->value)/g' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/pybind11/cast.h`
-	*`sed -i.bak '/static constexpr Symbol Kind/d' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/torch/csrc/jit/ir/ir.h`
+Markup * In WSL, edit the following:
+		* `sed -i.bak -e 's/CONSTEXPR_EXCEPT_WIN_CUDA/const/g' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/torch/csrc/jit/api/module.h`
+		* `sed -i.bak -e 's/return \*(this->value)/return \*((type\*)this->value)/g' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/pybind11/cast.h`
+		* `sed -i.bak '/static constexpr Symbol Kind/d' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/torch/csrc/jit/ir/ir.h`
 * `pip install "git+https://github.com/facebookresearch/pytorch3d.git"`
 * `git clone https://github.com/anjanadev96/NURBS_Diff.git`
 * `cd NURBS_Diff`
