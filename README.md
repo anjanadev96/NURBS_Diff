@@ -1,31 +1,33 @@
 
 # NURBS_Diff
 NURBS-Diff : A Differentiable NURBS Layer for Machine Learning CAD Applications
+Collaborators : Aditya Balu (baditya@iastate.edu), Harshil Shah (harshil@iastate.edu)
 
 # Requirements and Install dependencies
-All requirements updated in the environment.yml in the parent folder of the git repository.
+VS 2017 Command Prompt or Anaconda Command Prompt
 
-This is the command to install all the dependencies...
-* `conda env create -f environment.yml`
-* `conda activate nurbseval`
-* If not already installed via the environment file install Pytorch3D by:
-* `pip install "git+https://github.com/facebookresearch/pytorch3d.git" `
+
+To install main dependencies for Visual Studio:
+* Open Native x64 VS 2017 command prompt
+* `conda create -n 3dlearning`
+* `conda activate 3dlearning`
+* `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch`
+* `set DISTUTILS_USE_SDK=1 && set PY_VCRUNTIME_REDIST=No thanks && set MSSdk=1`
+* Download and unzip CUB (latest release) from https://github.com/NVIDIA/cub/releases
+* `set CUB_HOME=path/to/CUB/folder/containing/cmakelists.txt`
+* In WSL, edit the following:
+	*`sed -i.bak -e 's/CONSTEXPR_EXCEPT_WIN_CUDA/const/g' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/torch/csrc/jit/api/module.h`
+	*`sed -i.bak -e 's/return \*(this->value)/return \*((type\*)this->value)/g' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/pybind11/cast.h`
+	*`sed -i.bak '/static constexpr Symbol Kind/d' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/torch/csrc/jit/ir/ir.h`
+* `pip install "git+https://github.com/facebookresearch/pytorch3d.git"`
+* `git clone https://github.com/anjanadev96/NURBS_Diff.git`
+* `cd NURBS_Diff`
+* `python setup.py develop`
+	
+	
 * If not already installed via the environment file install NURBS-python by:
 * `pip install geomdl`
 
-# Installation of the package
-The following commands need to be modified to compile the code successfully, with pytorch code as well.
-
-```
-sed -i.bak -e 's/constexpr/const/g' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/torch/csrc/jit/api/module.h
-sed -i.bak -e 's/constexpr/const/g' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/torch/csrc/jit/runtime/argument_spec.h
-sed -i.bak -e 's/return \*(this->value)/return \*((type\*)this->value)/g' /c/tools/miniconda3/envs/test/lib/site-packages/torch/include/pybind11/cast.h
-```
-
-* Now proceed to run TorchNURBSEval by the following command:
-`call "%VS2017INSTALLDIR%\VC\Auxiliary\Build\vcvarsall.bat" x64 10.0.17763.0 && set DISTUTILS_USE_SDK=1 && set PY_VCRUNTIME_REDIST=No thanks && set MSSdk=1 && python setup.py develop`
-or open x64 Native Tools Command Prompt for VS2017 and run the following command from the TorchNURBSEval folder.
-`python setup.py develop`
 
 # Usage of TorchNURBSEval 
 
