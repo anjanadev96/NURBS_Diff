@@ -26,7 +26,7 @@ To install main dependencies for Visual Studio:
 	
 	
 * If not already installed via the environment file install NURBS-python by:
-* `pip install geomdl`
+  * `pip install geomdl`
 
 
 # Usage of TorchNURBSEval 
