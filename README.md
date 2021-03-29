@@ -1,6 +1,5 @@
 
-# NURBS_Diff
-> NURBS-Diff : A Differentiable NURBS Layer for Machine Learning CAD Applications\
+## NURBS_Diff : A Differentiable NURBS Layer for Machine Learning CAD Applications
 > Collaborators : Aditya Balu (baditya@iastate.edu), Harshil Shah (harshil@iastate.edu)
 
 ## Requirements and Install dependencies
