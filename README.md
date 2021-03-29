@@ -29,7 +29,7 @@ To install main dependencies for Visual Studio:
   * `pip install geomdl`
 
 
-### Ubuntu Users
+### Ubuntu
 
 1. `conda create -n 3dlearning`
 2. `conda activate 3dlearning`
