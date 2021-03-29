@@ -4,7 +4,8 @@ NURBS-Diff : A Differentiable NURBS Layer for Machine Learning CAD Applications
 Collaborators : Aditya Balu (baditya@iastate.edu), Harshil Shah (harshil@iastate.edu)
 
 # Requirements and Install dependencies
-VS 2017 Command Prompt or Anaconda Command Prompt
+
+### VS 2017 Command Prompt or Anaconda Command Prompt
 
 
 To install main dependencies for Visual Studio:
@@ -28,6 +29,18 @@ To install main dependencies for Visual Studio:
 * If not already installed via the environment file install NURBS-python by:
   * `pip install geomdl`
 
+
+### Ubuntu Users
+
+* `conda create -n 3dlearning`
+* `conda activate 3dlearning`
+* `pip install -U fvcore`
+* `pip install -U iopath`
+* `conda install -c bottler nvidiacub`
+* `pip install "git+https://github.com/facebookresearch/pytorch3d.git@stable"`
+* `git clone https://github.com/anjanadev96/NURBS_Diff.git`
+* `python setup.py develop`
+    
 
 # Usage of TorchNURBSEval 
 
