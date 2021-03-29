@@ -2,7 +2,7 @@
 ## NURBS_Diff : A Differentiable NURBS Layer for Machine Learning CAD Applications
 > Collaborators : Aditya Balu (baditya@iastate.edu), Harshil Shah (harshil@iastate.edu)
 
-## Requirements and Install dependencies
+## Install dependencies
 
 ### VS 2017 Command Prompt or Anaconda Command Prompt
 
