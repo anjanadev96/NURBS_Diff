@@ -1,9 +1,6 @@
-<<<<<<< HEAD
+
 # NURBS_Diff
 NURBS-Diff : A Differentiable NURBS Layer for Machine Learning CAD Applications
-=======
-# TorchNURBSEval
-This repo contains code for fitting curves and surfaces to any input point cloud.
 
 # Requirements and Install dependencies
 All requirements updated in the environment.yml in the parent folder of the git repository.
