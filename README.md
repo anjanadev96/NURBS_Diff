@@ -3,7 +3,7 @@
 > NURBS-Diff : A Differentiable NURBS Layer for Machine Learning CAD Applications\
 > Collaborators : Aditya Balu (baditya@iastate.edu), Harshil Shah (harshil@iastate.edu)
 
-# Requirements and Install dependencies
+## Requirements and Install dependencies
 
 ### VS 2017 Command Prompt or Anaconda Command Prompt
 
@@ -42,7 +42,7 @@ To install main dependencies for Visual Studio:
 8. `python setup.py develop`
     
 
-# Examples
+## Examples
 
 * Curve Evaluation (curve_eval.py)
   1. The evaluation kernels for curve_eval.py are written under torch_nurbs_eval/csrc/curve_eval.cpp
