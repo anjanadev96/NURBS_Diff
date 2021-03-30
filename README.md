@@ -5,7 +5,7 @@
 > NURBS-diff is a differentiable layer that can be run as a standalone layer for CAD applications like curve fitting, surface fitting, surface offseting, and other applications that rely on Non-uniform rational B-splines (NURBS) for representation. NURBS are the current standard for representing CAD geometries, and this work seeks to bridge the gap that currently exists between Deep Learning and Computer-Aided design.\n
 > The NURBS-diff layer can also be integrated with other DL frameworks for surface reconstruction to produce accurate rational B-spline surfaces as the output. 
 
-![alt text](https://github.com/anjanadev96/NURBS_Diff/blob/main/images/layer.PNG)
+![alt text](https://github.com/anjanadev96/NURBS_Diff/blob/main/images/layer.PNG NURBS_Diff layer)
 
 
 > Collaborators : Aditya Balu (baditya@iastate.edu), Harshil Shah (harshil@iastate.edu)
@@ -54,9 +54,10 @@ To install main dependencies for Visual Studio:
 >Each of the examples can be run using either the CPU version of the code, or the GPU version of the code (available as 'cuda' or 'tc'). \n
 > To run each of the examples, first carry out the build using setup.py. 
 
-* Curve Evaluation (curve_fitting_on_point_clouds.py)
+### Curve Evaluation (curve_fitting_on_point_clouds.py)
   * The layer can be used to fit generic 2D and 3D curves, and point clouds obtained from images.
   * To run curve_fitting_on_point_clouds.py, provide a random initialization of input control points, input point cloud and set the number of evaluation points.
   * Parameters to vary: degree, number of control points, number of evaluation points.
+  ![alt text](https://github.com/anjanadev96/NURBS_Diff/blob/main/images/curve_fitting.gif Curve fitting)
 	
 
