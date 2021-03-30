@@ -77,9 +77,9 @@ To install main dependencies for Visual Studio:
    * Trained on 2 NVIDIA Tesla V100s.
    * Added support for rational B-splines.
    #### Non-rational B-splines
-   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_big_legend.png" width="700" height="400">
+   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_big_legend.png" width="700" height="280">
    #### Rational B-splines
-   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_cd10.png" width="700" height="400">
+   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_cd10.png" width="700" height="280">
    
    
  ## Will be added soon:
