@@ -1,5 +1,11 @@
 
 ## NURBS_Diff : A Differentiable NURBS Layer for Machine Learning CAD Applications
+
+
+> NURBS-diff is a differentiable layer that can be run as a standalone layer for CAD applications like Curve fitting and Surface fitting to point clouds, Surface Offsets, and other applications that rely on Non-uniform rational B-splines (NURBS) for representation. NURBS are the current standard for representing CAD geometries, and this work seeks to bridge the gap that currently exists between Deep Learning and Computer-Aided design. \n
+> The NURBS-diff layer can also be integrated with other DL frameworks for surface reconstruction to produce accurate rational B-spline surfaces as the output. 
+
+
 > Collaborators : Aditya Balu (baditya@iastate.edu), Harshil Shah (harshil@iastate.edu)
 
 ## Install dependencies
@@ -43,16 +49,12 @@ To install main dependencies for Visual Studio:
 
 ## Examples
 
-* Curve Evaluation (curve_eval.py)
-  1. The evaluation kernels for curve_eval.py are written under torch_nurbs_eval/csrc/curve_eval.cpp
-  2. To run curve_eval.py, provide input control points, input point cloud and set the number of evaluation points under out_dim in CurveEval.
-	3. To generate random distribution of control points, use data_generator.gen_control_points()
-	4. Input Size parameters:
-	    * control points : (No of curves, no of control points, [(x,y,weights) or (x,y,z,weights)] )
-	    * point cloud : (No of point clouds, no of points in point cloud,3)
-	    * Parameters to vary: degree, number of control points, number of evaluation points.
-	5. To run the curve evaluation, cd into torch_nurbs_eval.
-	6. To run `python curve_eval.py`
+>Each of the examples can be run using either the CPU version of the code, or the GPU version of the code (available as 'cuda' or 'tc'). \n
+> To run each of the examples, first carry out the build using setup.py. 
 
-(Will add details for Surface Fitting soon)
->>>>>>> 39ea163a9b1a8098982ae17358ba1ffb0c3c07dc
+* Curve Evaluation (curve_fitting_on_point_clouds.py)
+  * The layer can be used to fit generic 2D and 3D curves, and point clouds obtained from images.
+  * To run curve_fitting_on_point_clouds.py, provide a random initialization of input control points, input point cloud and set the number of evaluation points.
+  * Parameters to vary: degree, number of control points, number of evaluation points.
+	
+
