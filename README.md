@@ -58,7 +58,7 @@ To install main dependencies for Visual Studio:
   * The layer can be used to fit generic 2D and 3D curves, and point clouds obtained from images.
   * To run curve_fitting_on_point_clouds.py, provide a random initialization of input control points, input point cloud and set the number of evaluation points.
   * Parameters to vary: degree, number of control points, number of evaluation points.
-  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/curve_fitting.gif" width="1000" height="600">
+  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/curve_fitting.gif" width="800" height="600">
 
 	
 
