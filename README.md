@@ -60,16 +60,16 @@ To install main dependencies for Visual Studio:
   * To run curve_fitting_on_point_clouds.py, provide a random initialization of input control points, input point cloud and set the number of evaluation points.
   * Parameters to vary: degree, number of control points, number of evaluation points.
   * Dataset used : Pixel dataset provided under Skelneton challenge.
-  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/curve_fitting.gif" width="800" height="600">
+  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/curve_fitting.gif" width="600" height="400">
   
 ### Surface Fitting 
   * Code can be found under examples/{surface_fitting.py, nurbs_surface_fitting.py}
   * The layer can fit rational and NURBS surfaces.
   * Provide input control point grid, number of evaluation points in u, v direction, degree.
-  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_fitting.gif" width="1000" height="500">
+  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_fitting.gif" width="600" height="250">
   
 ### Surface Offseting
    * Code found under examples for different cases.
-   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_offsets.gif" width="800" height="600">
+   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_offsets.gif" width="600" height="400">
   
 
