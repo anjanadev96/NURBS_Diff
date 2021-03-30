@@ -7,7 +7,7 @@
 
 ![alt text](https://github.com/anjanadev96/NURBS_Diff/blob/main/images/layer.PNG "NURBS_Diff layer")
 
-
+> Work done at Integrated Design and Engineering Analysis Lab, Iowa State University under Prof. Adarsh Krishnamurthy.
 > Collaborators : Aditya Balu (baditya@iastate.edu), Harshil Shah (harshil@iastate.edu)
 
 ## Install dependencies
@@ -60,26 +60,26 @@ To install main dependencies for Visual Studio:
   * To run curve_fitting_on_point_clouds.py, provide a random initialization of input control points, input point cloud and set the number of evaluation points.
   * Parameters to vary: degree, number of control points, number of evaluation points.
   * Dataset used : Pixel dataset provided under Skelneton challenge.
-  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/curve_fitting.gif" width="600" height="400">
+  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/curve_fitting.gif" title="Curve fitting on point clouds" width="600" height="400">
   
 ### Surface Fitting 
   * Code can be found under examples/{surface_fitting.py, nurbs_surface_fitting.py}
   * The layer can fit rational and NURBS surfaces.
   * Provide input control point grid, number of evaluation points in u, v direction, degree.
-  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_fitting.gif" width="500" height="250">
+  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_fitting.gif" title="NURBS surface fitting on ducky model" width="500" height="250">
   
 ### Surface Offseting
    * Code found under examples for different cases.
-   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_offsets.gif" width="600" height="400">
+   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_offsets.gif" title="Surface offset with C1 continuity" width="600" height="400">
    
  ### Surface reconstruction using Deep Learning
    * Splinenet architecture and dataset borrowed from ParSeNet (https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123520256.pdf)
    * Trained on 2 NVIDIA Tesla V100s.
    * Added support for rational B-splines.
    #### Non-rational B-splines
-   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_big_legend.png" width="700" height="280">\n
+   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_big_legend.png" title="Surface reconstruction on non-rational B-splines" width="700" height="280">\n
    #### Rational B-splines
-   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_cd10.png" width="700" height="280">
+   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_cd10.png" width="700" title = "Surface reconstruction on rational B-splines" height="280">
    
    
  ## Will be added soon:
