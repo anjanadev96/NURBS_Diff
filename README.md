@@ -66,7 +66,7 @@ To install main dependencies for Visual Studio:
   * Code can be found under examples/{surface_fitting.py, nurbs_surface_fitting.py}
   * The layer can fit rational and NURBS surfaces.
   * Provide input control point grid, number of evaluation points in u, v direction, degree.
-  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_fitting.gif" width="800" height="600">
+  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_fitting.gif" width="900" height="500">
   
 ### Surface Offseting
    * Code found under examples for different cases.
