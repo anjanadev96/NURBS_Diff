@@ -66,7 +66,7 @@ To install main dependencies for Visual Studio:
   * Code can be found under examples/{surface_fitting.py, nurbs_surface_fitting.py}
   * The layer can fit rational and NURBS surfaces.
   * Provide input control point grid, number of evaluation points in u, v direction, degree.
-  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_fitting.gif" width="600" height="250">
+  <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/nurbs_surface_fitting.gif" width="500" height="250">
   
 ### Surface Offseting
    * Code found under examples for different cases.
@@ -77,7 +77,7 @@ To install main dependencies for Visual Studio:
    * Trained on 2 NVIDIA Tesla V100s.
    * Added support for rational B-splines.
    #### Non-rational B-splines
-   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_big_legend.png" width="700" height="280">
+   <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_big_legend.png" width="700" height="280">\n
    #### Rational B-splines
    <img src="https://github.com/anjanadev96/NURBS_Diff/blob/main/images/reconstruction_cd10.png" width="700" height="280">
    
